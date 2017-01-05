@@ -10,7 +10,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-     <repositories>
+    <repositories>
         <repository>
             <id>artifactory</id>
             <name>artifactory-releases</name>
@@ -22,7 +22,7 @@
             <url>http://104.236.119.119:8082/artifactory/libs-snapshot-local</url>
         </repository>  
     </repositories>
-     <dependencies>
+    <dependencies>
         <dependency>
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -134,5 +134,4 @@
             </plugin>
         </plugins>
     </build>
-    
 </project>
