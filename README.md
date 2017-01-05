@@ -1,7 +1,3 @@
-Due to lack of time, cause by communication errors and disagreements between the groups in the cluster, we are not able to deploy the build directly from jenkins to dockerhub in time. Instead we are manually uploading the build to Docker.
- 
-We could have run all the docker containers on one big server, but to avoid paying for servers and instead use the free server money granted to students. It also gave more people a chance to work with the setup of servers and server connection. 
-
 Our final setup has the following elements:
 
 GitHub Repositories for 
