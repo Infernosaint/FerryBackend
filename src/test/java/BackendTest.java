@@ -32,9 +32,9 @@ public class BackendTest {
 
     @BeforeClass
     public static void setupClass() {
-        FerryMaster ferryMaster = new FerryMaster();
-        BackendHolder.manager = ferryMaster;
-        ferryMaster.initiateDB();
+        //FerryMaster ferryMaster = new FerryMaster();
+        //BackendHolder.manager = ferryMaster;
+        //ferryMaster.initiateDB();
     }
 
     @Test
