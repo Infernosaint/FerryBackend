@@ -16,6 +16,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import static javax.persistence.TemporalType.DATE;
+import static javax.persistence.TemporalType.TIMESTAMP;
+import static javax.xml.datatype.DatatypeConstants.DATETIME;
 
 /**
  *
@@ -27,7 +29,7 @@ public class Departure implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Temporal(DATE)
+    @Temporal(TIMESTAMP)
     private Date departureTime;
     
     @ManyToOne
