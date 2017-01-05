@@ -28,3 +28,8 @@ Server to run our project dockerfile and war file:
 46.101.223.183/8080
 
 The Report for this project is uploaded to the FerryBackend Repository
+https://github.com/Infernosaint/FerryBackend
+
+The Toolbox Contract is in the Contract repository
+https://github.com/Legendslayer/FerryProjectContract
+
