@@ -89,7 +89,6 @@ public class FerryMaster implements AdminInterface, CustomerInterface {
         em.getTransaction().commit();
 
     }
-
     boolean isWithinRange(Date testDate, Date startDate, Date endDate) {
         return testDate.getTime() >= startDate.getTime()
                 && testDate.getTime() <= endDate.getTime();
