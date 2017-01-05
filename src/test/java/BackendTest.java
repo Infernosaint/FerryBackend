@@ -32,8 +32,8 @@ public class BackendTest {
 
     @BeforeClass
     public static void setupClass() {
-        FerryMaster ferryMaster = new FerryMaster();
-        BackendHolder.manager = ferryMaster;
+        //FerryMaster ferryMaster = new FerryMaster();
+        //BackendHolder.manager = ferryMaster;
     }
 
     @Test
