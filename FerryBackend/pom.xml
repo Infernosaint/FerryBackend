@@ -37,7 +37,8 @@
         <dependency>
             <groupId>B</groupId>
             <artifactId>ContractTest</artifactId>
-            <version>1.0-20170105.044400-3</version>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
         </dependency>
 
         <dependency>
